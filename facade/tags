@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Facade	src/Facade.java	/^	public Facade(){$/;"	m	class:Facade
+Facade	src/Facade.java	/^public class Facade{$/;"	c
+ServiceAImpl	src/Facade.java	/^class ServiceAImpl implements ServiceA{$/;"	c
+ServiceBImpl	src/Facade.java	/^class ServiceBImpl implements ServiceB{$/;"	c
+ServiceCImpl	src/Facade.java	/^class ServiceCImpl implements ServiceC{$/;"	c
+Test	src/Test.java	/^public class Test{$/;"	c
+facade	src/Test.java	/^	Facade facade = new Facade();$/;"	f	class:Test
+facade.methodA	src/Test.java	/^	facade.methodA();$/;"	m	class:Test
+facade.methodB	src/Test.java	/^	facade.methodB();$/;"	m	class:Test
+facade.methodC	src/Test.java	/^	facade.methodC();$/;"	m	class:Test
+methodA	src/Facade.java	/^	public void methodA(){$/;"	m	class:Facade
+methodA	src/Facade.java	/^	public void methodA(){$/;"	m	class:ServiceAImpl
+methodB	src/Facade.java	/^	public void methodB(){$/;"	m	class:Facade
+methodB	src/Facade.java	/^	public void methodB(){$/;"	m	class:ServiceBImpl
+methodC	src/Facade.java	/^	public void methodC(){$/;"	m	class:Facade
+methodC	src/Facade.java	/^	public void methodC(){$/;"	m	class:ServiceCImpl
+sa	src/Facade.java	/^	ServiceA sa;$/;"	f	class:Facade
+sb	src/Facade.java	/^	ServiceB sb;$/;"	f	class:Facade
+sc	src/Facade.java	/^	ServiceC sc;$/;"	f	class:Facade

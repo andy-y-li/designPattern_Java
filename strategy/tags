@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Context	src/Context.java	/^    public Context(Strategy stra) {$/;"	m	class:Context
+Context	src/Context.java	/^public class Context {$/;"	c
+Strategy	src/Strategy.java	/^public abstract class Strategy {$/;"	c
+StrategyImplA	src/StrategyImplA.java	/^public class StrategyImplA extends Strategy {$/;"	c
+StrategyImplB	src/StrategyImplB.java	/^public class StrategyImplB extends Strategy {$/;"	c
+StrategyImplC	src/StrategyImplC.java	/^public class StrategyImplC extends Strategy {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+doMethod	src/Context.java	/^    public void doMethod() {$/;"	m	class:Context
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+method	src/Strategy.java	/^    public abstract void method();$/;"	m	class:Strategy
+method	src/StrategyImplA.java	/^    public void method() {$/;"	m	class:StrategyImplA
+method	src/StrategyImplB.java	/^    public void method() {$/;"	m	class:StrategyImplB
+method	src/StrategyImplC.java	/^    public void method() {$/;"	m	class:StrategyImplC
+stra	src/Context.java	/^    Strategy stra;$/;"	f	class:Context

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="javaTest" default="compile" basedir=".">
+	<property name="src.dir" value="src"/>
+	<property name="classes.dir" value="bin"/>
+	<property name="output.dir" value="out"/>
+	<property name="jarname" value="Test.jar"/>
+	<property name="mainclass" value="Test"/>
+
+	<target name="clean">
+		<delete dir="${classes.dir}"/>
+		<delete dir="${output.dir}"/>
+	</target>
+
+	<target name="init">
+		<mkdir dir="${classes.dir}"/>
+		<mkdir dir="${output.dir}"/>
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" debug="true"
+		includeantruntime="false">
+			<compilerarg line="-encoding gbk -Xlint:unchecked" />
+		</javac>
+	</target>
+
+	<target name="run" depends="jar">
+		<java jar="${output.dir}/${jarname}" fork="true">
+		</java>
+	</target>
+	<target name="jar" depends="compile">
+		<jar destfile="${output.dir}/${jarname}" basedir="${classes.dir}">
+			<manifest>
+				<attribute name="Main-class" value="${mainclass}"/>
+			</manifest>
+		</jar>
+	</target>
+</project>
+

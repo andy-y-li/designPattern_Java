@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Caretaker	src/Caretaker.java	/^public class Caretaker {$/;"	c
+Memento	src/Memento.java	/^    public Memento(String state) {$/;"	m	class:Memento
+Memento	src/Memento.java	/^public class Memento {$/;"	c
+Originator	src/Originator.java	/^public class Originator {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+createMemento	src/Originator.java	/^    public Memento createMemento() {$/;"	m	class:Originator
+getMemento	src/Caretaker.java	/^    public Memento getMemento(){$/;"	m	class:Caretaker
+getState	src/Memento.java	/^    public String getState() {$/;"	m	class:Memento
+getState	src/Originator.java	/^    public String getState() {$/;"	m	class:Originator
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+memento	src/Caretaker.java	/^    private Memento memento;$/;"	f	class:Caretaker	file:
+setMemento	src/Caretaker.java	/^    public void setMemento(Memento memento){$/;"	m	class:Caretaker
+setMemento	src/Originator.java	/^    public void setMemento(Memento memento) {$/;"	m	class:Originator
+setState	src/Memento.java	/^    public void setState(String state) {$/;"	m	class:Memento
+setState	src/Originator.java	/^    public void setState(String state) {$/;"	m	class:Originator
+showState	src/Originator.java	/^    public void showState(){$/;"	m	class:Originator
+state	src/Memento.java	/^    private String state;$/;"	f	class:Memento	file:
+state	src/Originator.java	/^    private String state;$/;"	f	class:Originator	file:

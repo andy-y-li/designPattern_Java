@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddMoneyRequest	src/AddMoneyRequest.java	/^public class AddMoneyRequest implements Request{$/;"	c
+DimissionRequest	src/DimissionRequest.java	/^public class DimissionRequest implements Request{$/;"	c
+HRRequestHandle	src/HRRequestHandle.java	/^public class HRRequestHandle implements RequestHandle {$/;"	c
+LeaveRequest	src/LeaveRequest.java	/^public class LeaveRequest implements Request{$/;"	c
+PMRequestHandle	src/PMRequestHandle.java	/^    public PMRequestHandle(RequestHandle rh) {$/;"	m	class:PMRequestHandle
+PMRequestHandle	src/PMRequestHandle.java	/^public class PMRequestHandle implements RequestHandle {$/;"	c
+Request	src/Request.java	/^public interface Request{$/;"	i
+RequestHandle	src/RequestHandle.java	/^public interface RequestHandle {$/;"	i
+TLRequestHandle	src/TLRequestHandle.java	/^    public TLRequestHandle(RequestHandle rh) {$/;"	m	class:TLRequestHandle
+TLRequestHandle	src/TLRequestHandle.java	/^public class TLRequestHandle implements RequestHandle {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+handleRequest	src/HRRequestHandle.java	/^    public void handleRequest(Request request) {$/;"	m	class:HRRequestHandle
+handleRequest	src/PMRequestHandle.java	/^    public void handleRequest(Request request) {$/;"	m	class:PMRequestHandle
+handleRequest	src/RequestHandle.java	/^    void handleRequest(Request request);$/;"	m	interface:RequestHandle
+handleRequest	src/TLRequestHandle.java	/^    public void handleRequest(Request request) {$/;"	m	class:TLRequestHandle
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+rh	src/PMRequestHandle.java	/^    RequestHandle rh;$/;"	f	class:PMRequestHandle
+rh	src/TLRequestHandle.java	/^    RequestHandle rh;$/;"	f	class:TLRequestHandle

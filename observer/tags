@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Citizen	src/Citizen.java	/^public abstract class Citizen {$/;"	c
+HuangPuCitizen	src/HuangPuCitizen.java	/^    public HuangPuCitizen(Policeman pol) {$/;"	m	class:HuangPuCitizen
+HuangPuCitizen	src/HuangPuCitizen.java	/^public class HuangPuCitizen extends Citizen {$/;"	c
+HuangPuPoliceman	src/HuangPuPoliceman.java	/^public class HuangPuPoliceman implements Policeman {$/;"	c
+Policeman	src/Policeman.java	/^public interface Policeman {$/;"	i
+Test	src/Test.java	/^public class Test{$/;"	c
+TianHeCitizen	src/TianHeCitizen.java	/^    public TianHeCitizen(Policeman pol) {$/;"	m	class:TianHeCitizen
+TianHeCitizen	src/TianHeCitizen.java	/^public class TianHeCitizen extends Citizen {$/;"	c
+TianHePoliceman	src/TianHePoliceman.java	/^public class TianHePoliceman implements Policeman {$/;"	c
+action	src/HuangPuPoliceman.java	/^    public void action(Citizen ci) {$/;"	m	class:HuangPuPoliceman
+action	src/Policeman.java	/^    void action(Citizen ci);$/;"	m	interface:Policeman
+action	src/TianHePoliceman.java	/^    public void action(Citizen ci) {$/;"	m	class:TianHePoliceman
+getHelp	src/Citizen.java	/^    public String getHelp() {$/;"	m	class:Citizen
+help	src/Citizen.java	/^    String help = "normal";$/;"	f	class:Citizen
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+pols	src/Citizen.java	/^    ArrayList pols;$/;"	f	class:Citizen
+register	src/Citizen.java	/^    public void register(Policeman pol) {$/;"	m	class:Citizen
+sendMessage	src/Citizen.java	/^    abstract void sendMessage(String help);$/;"	m	class:Citizen
+sendMessage	src/HuangPuCitizen.java	/^    public void sendMessage(String help) {$/;"	m	class:HuangPuCitizen
+sendMessage	src/TianHeCitizen.java	/^    public void sendMessage(String help) {$/;"	m	class:TianHeCitizen
+setHelp	src/Citizen.java	/^    public void setHelp(String help) {$/;"	m	class:Citizen
+setPolicemen	src/Citizen.java	/^    public void setPolicemen() {$/;"	m	class:Citizen
+unRegister	src/Citizen.java	/^    public void unRegister(Policeman pol) {$/;"	m	class:Citizen

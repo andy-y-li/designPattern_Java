@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AdvanceExpression	src/AdvanceExpression.java	/^public class AdvanceExpression extends Expression {$/;"	c
+Context	src/Context.java	/^public class Context {$/;"	c
+Expression	src/Expression.java	/^public abstract class Expression {$/;"	c
+SimpleExpression	src/SimpleExpression.java	/^public class SimpleExpression extends Expression {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+add	src/Context.java	/^    public void add(Expression eps) {$/;"	m	class:Context
+content	src/Context.java	/^    private String content;$/;"	f	class:Context	file:
+getContent	src/Context.java	/^    public String getContent() {$/;"	m	class:Context
+getList	src/Context.java	/^    public ArrayList getList() {$/;"	m	class:Context
+interpret	src/AdvanceExpression.java	/^    void interpret(Context ctx) {$/;"	m	class:AdvanceExpression
+interpret	src/Expression.java	/^    abstract void interpret(Context ctx);$/;"	m	class:Expression
+interpret	src/SimpleExpression.java	/^    void interpret(Context ctx) {$/;"	m	class:SimpleExpression
+list	src/Context.java	/^    private ArrayList list = new ArrayList();$/;"	f	class:Context	file:
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+setContent	src/Context.java	/^    public void setContent(String content) {$/;"	m	class:Context

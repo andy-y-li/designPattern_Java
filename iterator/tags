@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Iterator	src/Iterator.java	/^public interface Iterator {$/;"	i
+IteratorImpl	src/IteratorImpl.java	/^    public IteratorImpl(List list) {$/;"	m	class:IteratorImpl
+IteratorImpl	src/IteratorImpl.java	/^public class IteratorImpl implements Iterator {$/;"	c
+List	src/List.java	/^public interface List {$/;"	i
+ListImpl	src/ListImpl.java	/^    public ListImpl() {$/;"	m	class:ListImpl
+ListImpl	src/ListImpl.java	/^public class ListImpl implements List {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+add	src/List.java	/^    void add(Object obj);$/;"	m	interface:List
+add	src/ListImpl.java	/^    public void add(Object obj) {$/;"	m	class:ListImpl
+first	src/Iterator.java	/^    void first();$/;"	m	interface:Iterator
+first	src/IteratorImpl.java	/^    public void first() {$/;"	m	class:IteratorImpl
+get	src/List.java	/^    Object get(int index);$/;"	m	interface:List
+get	src/ListImpl.java	/^    public Object get(int index) {$/;"	m	class:ListImpl
+getSize	src/List.java	/^    int getSize();$/;"	m	interface:List
+getSize	src/ListImpl.java	/^    public int getSize() {$/;"	m	class:ListImpl
+hasNext	src/Iterator.java	/^    boolean hasNext();$/;"	m	interface:Iterator
+hasNext	src/IteratorImpl.java	/^    public boolean hasNext() {$/;"	m	class:IteratorImpl
+index	src/IteratorImpl.java	/^    private int index;$/;"	f	class:IteratorImpl	file:
+index	src/ListImpl.java	/^    private int index;$/;"	f	class:ListImpl	file:
+iterator	src/List.java	/^    Iterator iterator();$/;"	m	interface:List
+iterator	src/ListImpl.java	/^    public Iterator iterator() {$/;"	m	class:ListImpl
+last	src/Iterator.java	/^    void last();$/;"	m	interface:Iterator
+last	src/IteratorImpl.java	/^    public void last() {$/;"	m	class:IteratorImpl
+list	src/IteratorImpl.java	/^    private List list;$/;"	f	class:IteratorImpl	file:
+list	src/ListImpl.java	/^    private Object[] list;$/;"	f	class:ListImpl	file:
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+next	src/Iterator.java	/^    Object next();$/;"	m	interface:Iterator
+next	src/IteratorImpl.java	/^    public Object next() {$/;"	m	class:IteratorImpl
+size	src/ListImpl.java	/^    private int size;$/;"	f	class:ListImpl	file:

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Flyweight	src/Flyweight.java	/^public interface Flyweight {$/;"	i
+FlyweightFactory	src/FlyweightFactory.java	/^    public FlyweightFactory(String arg) {$/;"	m	class:FlyweightFactory
+FlyweightFactory	src/FlyweightFactory.java	/^public class FlyweightFactory {$/;"	c
+FlyweightImpl	src/FlyweightImpl.java	/^public class FlyweightImpl implements Flyweight {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+action	src/Flyweight.java	/^    void action(int arg);$/;"	m	interface:Flyweight
+action	src/FlyweightImpl.java	/^    public void action(int arg) {$/;"	m	class:FlyweightImpl
+flyweights	src/FlyweightFactory.java	/^    private static Map flyweights = new HashMap();$/;"	f	class:FlyweightFactory	file:
+getFlyweight	src/FlyweightFactory.java	/^    public static Flyweight getFlyweight(String key) {$/;"	m	class:FlyweightFactory
+getSize	src/FlyweightFactory.java	/^    public static int getSize() {$/;"	m	class:FlyweightFactory
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test

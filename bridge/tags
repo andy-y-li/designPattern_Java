@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Clothing	src/Clothing.java	/^public abstract class Clothing {$/;"	c
+ClothingFactory	src/ClothingFactory.java	/^	public ClothingFactory(Clothing clothing){$/;"	m	class:ClothingFactory
+ClothingFactory	src/ClothingFactory.java	/^public class ClothingFactory{$/;"	c
+Jacket	src/Jacket.java	/^public class Jacket extends Clothing {$/;"	c
+Lady	src/Lady.java	/^    public Lady() {$/;"	m	class:Lady
+Lady	src/Lady.java	/^public class Lady extends Person {$/;"	c
+Man	src/Man.java	/^    public Man() {$/;"	m	class:Man
+Man	src/Man.java	/^public class Man extends Person {$/;"	c
+Person	src/Person.java	/^public abstract class Person {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+Trouser	src/Trouser.java	/^public class Trouser extends Clothing {$/;"	c
+clothing	src/ClothingFactory.java	/^	private Clothing clothing;$/;"	f	class:ClothingFactory	file:
+clothing	src/Person.java	/^    private Clothing clothing;$/;"	f	class:Person	file:
+dress	src/Lady.java	/^    public void dress() {$/;"	m	class:Lady
+dress	src/Man.java	/^    public void dress() {$/;"	m	class:Man
+dress	src/Person.java	/^    public abstract void dress();$/;"	m	class:Person
+getClothing	src/ClothingFactory.java	/^	public Clothing getClothing(){$/;"	m	class:ClothingFactory
+getClothing	src/Person.java	/^    public Clothing getClothing() {$/;"	m	class:Person
+getType	src/Person.java	/^    public String getType() {$/;"	m	class:Person
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+personDressCloth	src/Clothing.java	/^    public abstract void personDressCloth(Person person);$/;"	m	class:Clothing
+personDressCloth	src/Jacket.java	/^    public void personDressCloth(Person person) {$/;"	m	class:Jacket
+personDressCloth	src/Trouser.java	/^    public void personDressCloth(Person person) {$/;"	m	class:Trouser
+setClothing	src/Person.java	/^    public void setClothing() {$/;"	m	class:Person
+setType	src/Person.java	/^    public void setType(String type) {$/;"	m	class:Person
+type	src/Person.java	/^    private String type;$/;"	f	class:Person	file:

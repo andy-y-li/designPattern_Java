@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ConcreteVisitor	src/ConcreteVisitor.java	/^public class ConcreteVisitor implements Visitor {$/;"	c
+FloatElement	src/FloatElement.java	/^    public FloatElement(Float fe) {$/;"	m	class:FloatElement
+FloatElement	src/FloatElement.java	/^public class FloatElement implements Visitable {$/;"	c
+StringElement	src/StringElement.java	/^    public StringElement(String se) {$/;"	m	class:StringElement
+StringElement	src/StringElement.java	/^public class StringElement implements Visitable {$/;"	c
+Test	src/Test.java	/^public class Test {$/;"	c
+Visitable	src/Visitable.java	/^public interface Visitable {$/;"	i
+Visitor	src/Visitor.java	/^public interface Visitor {$/;"	i
+accept	src/FloatElement.java	/^    public void accept(Visitor visitor) {$/;"	m	class:FloatElement
+accept	src/StringElement.java	/^    public void accept(Visitor visitor) {$/;"	m	class:StringElement
+accept	src/Visitable.java	/^    public void accept(Visitor visitor);$/;"	m	interface:Visitable
+fe	src/FloatElement.java	/^    private Float fe;$/;"	f	class:FloatElement	file:
+getFe	src/FloatElement.java	/^    public Float getFe() {$/;"	m	class:FloatElement
+getSe	src/StringElement.java	/^    public String getSe() {$/;"	m	class:StringElement
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+se	src/StringElement.java	/^    private String se;$/;"	f	class:StringElement	file:
+visitCollection	src/ConcreteVisitor.java	/^    public void visitCollection(List<Visitable> collection) {$/;"	m	class:ConcreteVisitor
+visitCollection	src/Visitor.java	/^    public void visitCollection(List<Visitable> collection); $/;"	m	interface:Visitor
+visitFloat	src/ConcreteVisitor.java	/^    public void visitFloat(FloatElement floatE) {$/;"	m	class:ConcreteVisitor
+visitFloat	src/Visitor.java	/^    public void visitFloat(FloatElement floatE);$/;"	m	interface:Visitor
+visitString	src/ConcreteVisitor.java	/^    public void visitString(StringElement stringE) {$/;"	m	class:ConcreteVisitor
+visitString	src/Visitor.java	/^    public void visitString(StringElement stringE);$/;"	m	interface:Visitor

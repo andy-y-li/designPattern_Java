@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Man	src/Man.java	/^public class Man extends Person {$/;"	c
+ManBuilder	src/ManBuilder.java	/^    public ManBuilder() {$/;"	m	class:ManBuilder
+ManBuilder	src/ManBuilder.java	/^public class ManBuilder implements PersonBuilder {$/;"	c
+Person	src/Person.java	/^public class Person {$/;"	c
+PersonBuilder	src/PersonBuilder.java	/^public interface PersonBuilder {$/;"	i
+PersonDirector	src/PersonDirector.java	/^public class PersonDirector {$/;"	c
+Test	src/Test.java	/^public class Test{$/;"	c
+body	src/Person.java	/^    private String body;$/;"	f	class:Person	file:
+buildBody	src/ManBuilder.java	/^    public void buildBody() {$/;"	m	class:ManBuilder
+buildBody	src/PersonBuilder.java	/^    void buildBody();$/;"	m	interface:PersonBuilder
+buildFoot	src/ManBuilder.java	/^    public void buildFoot() {$/;"	m	class:ManBuilder
+buildFoot	src/PersonBuilder.java	/^    void buildFoot();$/;"	m	interface:PersonBuilder
+buildHead	src/ManBuilder.java	/^    public void buildHead() {$/;"	m	class:ManBuilder
+buildHead	src/PersonBuilder.java	/^    void buildHead();$/;"	m	interface:PersonBuilder
+buildPerson	src/ManBuilder.java	/^    public Person buildPerson() {$/;"	m	class:ManBuilder
+buildPerson	src/PersonBuilder.java	/^    Person buildPerson();$/;"	m	interface:PersonBuilder
+constructPerson	src/PersonDirector.java	/^    public Person constructPerson(PersonBuilder pb) {$/;"	m	class:PersonDirector
+foot	src/Person.java	/^    private String foot;$/;"	f	class:Person	file:
+getBody	src/Person.java	/^    public String getBody() {$/;"	m	class:Person
+getFoot	src/Person.java	/^    public String getFoot() {$/;"	m	class:Person
+getHead	src/Person.java	/^    public String getHead() {$/;"	m	class:Person
+head	src/Person.java	/^    private String head;$/;"	f	class:Person	file:
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+person	src/ManBuilder.java	/^    Person person;$/;"	f	class:ManBuilder
+setBody	src/Person.java	/^    public void setBody(String body) {$/;"	m	class:Person
+setFoot	src/Person.java	/^    public void setFoot(String foot) {$/;"	m	class:Person
+setHead	src/Person.java	/^    public void setHead(String head) {$/;"	m	class:Person

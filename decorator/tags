@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Decorator	src/Decorator.java	/^public abstract class Decorator implements Person {$/;"	c
+Man	src/Man.java	/^public class Man implements Person {$/;"	c
+ManDecoratorA	src/ManDecoratorA.java	/^public class ManDecoratorA extends Decorator {$/;"	c
+ManDecoratorB	src/ManDecoratorB.java	/^public class ManDecoratorB extends Decorator {$/;"	c
+Person	src/Person.java	/^public interface Person {$/;"	i
+Test	src/Test.java	/^public class Test {$/;"	c
+eat	src/Decorator.java	/^    public void eat() {$/;"	m	class:Decorator
+eat	src/Man.java	/^	public void eat() {$/;"	m	class:Man
+eat	src/ManDecoratorA.java	/^    public void eat() {$/;"	m	class:ManDecoratorA
+eat	src/ManDecoratorB.java	/^    public void eat() {$/;"	m	class:ManDecoratorB
+eat	src/Person.java	/^    void eat();$/;"	m	interface:Person
+main	src/Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+person	src/Decorator.java	/^    protected Person person;$/;"	f	class:Decorator
+reEat	src/ManDecoratorA.java	/^    public void reEat() {$/;"	m	class:ManDecoratorA
+setPerson	src/Decorator.java	/^    public void setPerson(Person person) {$/;"	m	class:Decorator
